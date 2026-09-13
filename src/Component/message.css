@@ -1,0 +1,53 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(30, 29, 29);
+}
+.WhatsApp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#WhatsApp{
+    display: block;
+    text-align: left;
+    width: 80%;
+}
+
+#info, #newmessage{
+    width: 10%;
+}
+.Searchbar{
+    display: block;
+    width: 100%;
+}
+
+.Searchbar input{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    outline: none;
+}
+
+.Searchbar input::placeholder{
+    color: rgb(150, 150, 150);
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    border-radius: 20px;
+}
+
+

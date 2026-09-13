@@ -1,0 +1,41 @@
+.navbar{
+    width: 10%;
+    background-color: rgb(46, 46, 46);
+}
+.Block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.Itemlist{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Meta{
+    height: 60vh;
+}
+
+.Setting{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    display: block;
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 98%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
